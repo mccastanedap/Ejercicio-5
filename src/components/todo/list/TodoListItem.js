@@ -1,7 +1,5 @@
 import React from "react";
 
-import React from "react";
-
 export const TodoListItem = ({ todo, index, delTodo, toggle }) => {
   return (
     <li key={todo.id} className="list-group-item">
